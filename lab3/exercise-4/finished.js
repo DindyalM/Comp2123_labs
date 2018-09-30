@@ -1,6 +1,6 @@
 var max = 50;
 
-var handleCounter = function (err, counter, waitTime, timestamp) {
+var handleCounter = function (err, counter, waitTime, timestamp) { // this is a callback
     if(err) {
         console.log('ERROR: ' + err.message);
     }
